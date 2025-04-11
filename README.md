@@ -17,7 +17,15 @@ python inference.py --image_path "C:\User\Your\image\path.jpeg"
    ``
    python app.py
    ``
+
+**To run tflite(Tensorflow lite version edge based case)**
+1. Download pre-trained tflite converted models from this [link](https://drive.google.com/drive/folders/1sh1kmIl-y6sysgnzuHboYLFrWZegm5Dz?usp=sharing)
+2. Give the path in tflite.py file
+3. Run below given command
    
+``
+python tflite.py --image_path "C:\User\Your\image\path.jpeg"
+``  
 
    
 **To train the model from scratch**
